@@ -64,9 +64,11 @@ class MapVelibViewModel : NSObject, ObservableObject,CLLocationManagerDelegate {
     
     
     func checkIfLocationServicesIsEnabled() {
+
+
         if CLLocationManager.locationServicesEnabled(){
-            locationManager = CLLocationManager()
-            locationManager.delegate = self
+            self.locationManager = CLLocationManager()
+            self.locationManager.delegate = self
         }
         else {
             print("Veuillez activer votre localisation")
@@ -85,11 +87,12 @@ class MapVelibViewModel : NSObject, ObservableObject,CLLocationManagerDelegate {
             case .denied:
                 print("vous avez refusé l'autorisation de localisation de cette application ? allez dans les paramètres pour le modifier")
             case .authorizedAlways, .authorizedWhenInUse:
-                
-                region = MKCoordinateRegion(center:  CLLocationCoordinate2D(latitude: locationManager.location?.coordinate.latitude ?? 48.8580933, longitude:locationManager.location?.coordinate.longitude ?? 2.3449456 ), span: MapDetails.defaultSpan)
-
-             self.getRecords()
-             ancp = (self.locationManager.location?.coordinate.latitude)!
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1){
+                    print("jdjdsjdjdjdj")
+                    self.region = MKCoordinateRegion(center:  CLLocationCoordinate2D(latitude: locationManager.location?.coordinate.latitude ?? 48.8580933, longitude:locationManager.location?.coordinate.longitude ?? 2.3449456 ), span: MapDetails.defaultSpan)
+                if (locationManager.location?.coordinate.latitude != nil){
+                     self.getRecords()
+                    self.ancp = (self.locationManager.location?.coordinate.latitude)!}}
 
             @unknown default:
                 break
@@ -115,12 +118,15 @@ class MapVelibViewModel : NSObject, ObservableObject,CLLocationManagerDelegate {
 
 
     func getRecords()   {
-        if(locationManager.location?.coordinate.latitude != nil ){
-            AF.request("https://opendata.paris.fr/api/records/1.0/search/?dataset=velib-disponibilite-en-temps-reel&q=&facet=name&facet=is_installed&facet=is_renting&facet=is_returning&facet=nom_arrondissement_communes&geofilter.distance=\((self.locationManager.location?.coordinate.latitude)!)%2C\((locationManager.location?.coordinate.longitude)!)%2C1000")
+        
+                AF.request("https://opendata.paris.fr/api/records/1.0/search/?dataset=velib-disponibilite-en-temps-reel&q=&facet=name&facet=is_installed&facet=is_renting&facet=is_returning&facet=nom_arrondissement_communes&geofilter.distance=\((self.locationManager.location?.coordinate.latitude)!)%2C\((self.locationManager.location?.coordinate.longitude)!)%2C1000")
           .validate()
           .responseDecodable(of: Velibs.self) { (response) in
             guard let Velibs = response.value else { return }
-              self.records = Velibs.records!
+              DispatchQueue.main.async {
+
+              print(Velibs.records!)
+                  self.records = Velibs.records!}
           }}
-        }
+        
     }
