@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A963F6A286327B000FBD67E /* VoltaireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F69286327B000FBD67E /* VoltaireApp.swift */; };
+		4A963F6C286327B000FBD67E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F6B286327B000FBD67E /* ContentView.swift */; };
+		4A963F6E286327B100FBD67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A963F6D286327B100FBD67E /* Assets.xcassets */; };
+		4A963F71286327B100FBD67E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A963F70286327B100FBD67E /* Preview Assets.xcassets */; };
+		4A963F7E2863284700FBD67E /* VelibLocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F7D2863284700FBD67E /* VelibLocationListView.swift */; };
+		4A963F802863284E00FBD67E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F7F2863284E00FBD67E /* MapView.swift */; };
+		4A963F822863285500FBD67E /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F812863285500FBD67E /* LocationMapAnnotationView.swift */; };
+		4A963F842863285F00FBD67E /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F832863285F00FBD67E /* Record.swift */; };
+		4A963F862863286D00FBD67E /* MapVelibViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F852863286D00FBD67E /* MapVelibViewModel.swift */; };
+		4A963F882863287400FBD67E /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F872863287400FBD67E /* Enum.swift */; };
+		4A963F9228632FB700FBD67E /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F8B28632FB700FBD67E /* Fields.swift */; };
+		4A963F9328632FB700FBD67E /* Facets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F8C28632FB700FBD67E /* Facets.swift */; };
+		4A963F9428632FB700FBD67E /* Parameterss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F8D28632FB700FBD67E /* Parameterss.swift */; };
+		4A963F9528632FB700FBD67E /* Velibs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F8E28632FB700FBD67E /* Velibs.swift */; };
+		4A963F9628632FB700FBD67E /* Facet_groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F8F28632FB700FBD67E /* Facet_groups.swift */; };
+		4A963F9728632FB700FBD67E /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F9028632FB700FBD67E /* Records.swift */; };
+		4A963F9828632FB700FBD67E /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A963F9128632FB700FBD67E /* Geometry.swift */; };
+		B3594BAA7C0D1CF451EF71A5 /* Pods_Voltaire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DF5ADB76D84B18E44C653B /* Pods_Voltaire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A963F66286327B000FBD67E /* Voltaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voltaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A963F69286327B000FBD67E /* VoltaireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltaireApp.swift; sourceTree = "<group>"; };
+		4A963F6B286327B000FBD67E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A963F6D286327B100FBD67E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A963F70286327B100FBD67E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A963F7D2863284700FBD67E /* VelibLocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelibLocationListView.swift; sourceTree = "<group>"; };
+		4A963F7F2863284E00FBD67E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		4A963F812863285500FBD67E /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		4A963F832863285F00FBD67E /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		4A963F852863286D00FBD67E /* MapVelibViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVelibViewModel.swift; sourceTree = "<group>"; };
+		4A963F872863287400FBD67E /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		4A963F8B28632FB700FBD67E /* Fields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
+		4A963F8C28632FB700FBD67E /* Facets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facets.swift; sourceTree = "<group>"; };
+		4A963F8D28632FB700FBD67E /* Parameterss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameterss.swift; sourceTree = "<group>"; };
+		4A963F8E28632FB700FBD67E /* Velibs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Velibs.swift; sourceTree = "<group>"; };
+		4A963F8F28632FB700FBD67E /* Facet_groups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facet_groups.swift; sourceTree = "<group>"; };
+		4A963F9028632FB700FBD67E /* Records.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
+		4A963F9128632FB700FBD67E /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		4A963F9928633CAF00FBD67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4CBA848EF81C3C5BD65FD1F3 /* Pods-Voltaire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voltaire.debug.xcconfig"; path = "Target Support Files/Pods-Voltaire/Pods-Voltaire.debug.xcconfig"; sourceTree = "<group>"; };
+		76DF5ADB76D84B18E44C653B /* Pods_Voltaire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Voltaire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7905AE6F881D37F47B944EEE /* Pods-Voltaire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voltaire.release.xcconfig"; path = "Target Support Files/Pods-Voltaire/Pods-Voltaire.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A963F63286327B000FBD67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3594BAA7C0D1CF451EF71A5 /* Pods_Voltaire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A963F5D286327B000FBD67E = {
+			isa = PBXGroup;
+			children = (
+				4A963F68286327B000FBD67E /* Voltaire */,
+				4A963F67286327B000FBD67E /* Products */,
+				57441FD6287B3C3F8C137CDE /* Pods */,
+				97497DF4840C51C2797B8AB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A963F67286327B000FBD67E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A963F66286327B000FBD67E /* Voltaire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A963F68286327B000FBD67E /* Voltaire */ = {
+			isa = PBXGroup;
+			children = (
+				4A963F9928633CAF00FBD67E /* Info.plist */,
+				4A963F7C2863282A00FBD67E /* Enum */,
+				4A963F7B286327CF00FBD67E /* ViewModel */,
+				4A963F7A286327CA00FBD67E /* View */,
+				4A963F77286327BB00FBD67E /* Model */,
+				4A963F69286327B000FBD67E /* VoltaireApp.swift */,
+				4A963F6B286327B000FBD67E /* ContentView.swift */,
+				4A963F6D286327B100FBD67E /* Assets.xcassets */,
+				4A963F6F286327B100FBD67E /* Preview Content */,
+			);
+			path = Voltaire;
+			sourceTree = "<group>";
+		};
+		4A963F6F286327B100FBD67E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A963F70286327B100FBD67E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A963F77286327BB00FBD67E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A963F8F28632FB700FBD67E /* Facet_groups.swift */,
+				4A963F8C28632FB700FBD67E /* Facets.swift */,
+				4A963F8B28632FB700FBD67E /* Fields.swift */,
+				4A963F9128632FB700FBD67E /* Geometry.swift */,
+				4A963F8E28632FB700FBD67E /* Velibs.swift */,
+				4A963F8D28632FB700FBD67E /* Parameterss.swift */,
+				4A963F9028632FB700FBD67E /* Records.swift */,
+				4A963F832863285F00FBD67E /* Record.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A963F7A286327CA00FBD67E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A963F7D2863284700FBD67E /* VelibLocationListView.swift */,
+				4A963F7F2863284E00FBD67E /* MapView.swift */,
+				4A963F812863285500FBD67E /* LocationMapAnnotationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A963F7B286327CF00FBD67E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4A963F852863286D00FBD67E /* MapVelibViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4A963F7C2863282A00FBD67E /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				4A963F872863287400FBD67E /* Enum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		57441FD6287B3C3F8C137CDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CBA848EF81C3C5BD65FD1F3 /* Pods-Voltaire.debug.xcconfig */,
+				7905AE6F881D37F47B944EEE /* Pods-Voltaire.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97497DF4840C51C2797B8AB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76DF5ADB76D84B18E44C653B /* Pods_Voltaire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A963F65286327B000FBD67E /* Voltaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A963F74286327B100FBD67E /* Build configuration list for PBXNativeTarget "Voltaire" */;
+			buildPhases = (
+				6F13F4AD7D7DAABCBB0A7A8C /* [CP] Check Pods Manifest.lock */,
+				4A963F62286327B000FBD67E /* Sources */,
+				4A963F63286327B000FBD67E /* Frameworks */,
+				4A963F64286327B000FBD67E /* Resources */,
+				8FD6D9A704CF96C0959BD075 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voltaire;
+			productName = Voltaire;
+			productReference = 4A963F66286327B000FBD67E /* Voltaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A963F5E286327B000FBD67E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4A963F65286327B000FBD67E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A963F61286327B000FBD67E /* Build configuration list for PBXProject "Voltaire" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A963F5D286327B000FBD67E;
+			productRefGroup = 4A963F67286327B000FBD67E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A963F65286327B000FBD67E /* Voltaire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A963F64286327B000FBD67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A963F71286327B100FBD67E /* Preview Assets.xcassets in Resources */,
+				4A963F6E286327B100FBD67E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F13F4AD7D7DAABCBB0A7A8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Voltaire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FD6D9A704CF96C0959BD075 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Voltaire/Pods-Voltaire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Voltaire/Pods-Voltaire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Voltaire/Pods-Voltaire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A963F62286327B000FBD67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A963F6C286327B000FBD67E /* ContentView.swift in Sources */,
+				4A963F822863285500FBD67E /* LocationMapAnnotationView.swift in Sources */,
+				4A963F882863287400FBD67E /* Enum.swift in Sources */,
+				4A963F9328632FB700FBD67E /* Facets.swift in Sources */,
+				4A963F9828632FB700FBD67E /* Geometry.swift in Sources */,
+				4A963F9228632FB700FBD67E /* Fields.swift in Sources */,
+				4A963F9528632FB700FBD67E /* Velibs.swift in Sources */,
+				4A963F842863285F00FBD67E /* Record.swift in Sources */,
+				4A963F802863284E00FBD67E /* MapView.swift in Sources */,
+				4A963F9728632FB700FBD67E /* Records.swift in Sources */,
+				4A963F9628632FB700FBD67E /* Facet_groups.swift in Sources */,
+				4A963F6A286327B000FBD67E /* VoltaireApp.swift in Sources */,
+				4A963F862863286D00FBD67E /* MapVelibViewModel.swift in Sources */,
+				4A963F7E2863284700FBD67E /* VelibLocationListView.swift in Sources */,
+				4A963F9428632FB700FBD67E /* Parameterss.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A963F72286327B100FBD67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A963F73286327B100FBD67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A963F75286327B100FBD67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CBA848EF81C3C5BD65FD1F3 /* Pods-Voltaire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Voltaire/Preview Content\"";
+				DEVELOPMENT_TEAM = 68AX53NGT7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Voltaire/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Cette application a besoin de votre position pour l'afficher sur la map.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatem.Voltaire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A963F76286327B100FBD67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7905AE6F881D37F47B944EEE /* Pods-Voltaire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Voltaire/Preview Content\"";
+				DEVELOPMENT_TEAM = 68AX53NGT7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Voltaire/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Cette application a besoin de votre position pour l'afficher sur la map.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatem.Voltaire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A963F61286327B000FBD67E /* Build configuration list for PBXProject "Voltaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A963F72286327B100FBD67E /* Debug */,
+				4A963F73286327B100FBD67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A963F74286327B100FBD67E /* Build configuration list for PBXNativeTarget "Voltaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A963F75286327B100FBD67E /* Debug */,
+				4A963F76286327B100FBD67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A963F5E286327B000FBD67E /* Project object */;
+}
